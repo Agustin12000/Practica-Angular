@@ -1,0 +1,22 @@
+<span [ngClass]="'form'">
+    <h2>Crear Materia</h2>
+    <p>
+        <label>Nombre:</label>
+        <input type="text" [(ngModel)]="materia.name">
+    </p>
+    <p>
+        <label>Descripcion:</label>
+        <input type="text" [(ngModel)]="materia.description">
+    </p>
+    <p>
+        <label>Duracion:</label>
+        <input type="number" [(ngModel)]="materia.duration">
+    </p>
+    <p>
+        <label>Horas Totales:</label>
+        <input type="number" [(ngModel)]="materia.totalHours">
+    </p>
+    <p [ngClass]="'align-right'">
+        <button (click)="this.nuevaMateria()">Guardar</button>
+    </p>
+</span>

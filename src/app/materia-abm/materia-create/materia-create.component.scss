@@ -1,0 +1,44 @@
+.form{
+    display: block;
+    background: rgb(83, 158, 228);
+    max-width: 350px;
+    width: 90%;
+    margin: 25px auto;
+    padding: 15px;
+    border-radius: 15px;
+    h2{
+        color: #fff;
+    }
+    p{
+        label{
+            display: block;
+            color: #fff;
+        }
+        input{
+            border: #fff 2px solid;
+            border-radius: 6px;
+            height: 20px;
+            max-width: 325px;
+            width: 90%;
+            color: #fff;
+            background: rgb(83, 158, 228);
+        }
+        button{
+            cursor: pointer;
+            background: #fff;
+            color: rgb(61, 61, 61);
+            border-radius: 6px;
+            &:hover{
+                color: #fff;
+                background: rgb(42, 43, 43);
+            }
+        }
+    }
+}
+.align-right{
+    padding-top: 20px;
+    padding-right: 30px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
